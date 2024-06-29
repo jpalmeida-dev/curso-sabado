@@ -1,0 +1,73 @@
+/* Reset CSS */
+
+/* Box model */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Typography */
+  body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  /* Links */
+  a {
+    text-decoration: none;
+    color: #06c;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Lists */
+  ul, ol {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  /* Tables */
+  table {
+    border-collapse: collapse;
+    border-spacing: 0;
+  }
+  
+  th, td {
+    padding: 0;
+    border: none;
+  }
+  
+  /* Images */
+  img {
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+  }
+  
+  /* Forms */
+  input, textarea, select {
+    font-family: inherit;
+    font-size: inherit;
+    padding: 0.5em;
+    margin: 0;
+    border: 1px solid #ccc;
+  }
+  
+  input[type="submit"] {
+    cursor: pointer;
+  }
+  
+  /* Misc */
+  html {
+    overflow-y: scroll;
+  }
+  
+  body {
+    overflow-x: hidden;
+  }

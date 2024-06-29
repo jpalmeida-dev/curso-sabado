@@ -1,0 +1,142 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.description-text1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    
+}
+
+.herologo{
+    width: 400px;
+    height: 460px;
+    
+    
+}
+
+.description-text2 {
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 30px;
+}
+
+.button-primary {
+    background-color: #846AFF;
+    border-radius: 4px;
+    padding: 14px 32px 14px 32px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    border: none;
+    width: 214px;
+    height: 49px;
+    margin-top: 30px;
+}
+
+.box1 {
+    width: 650px;
+    height: 300px;
+    margin-left: 350px;
+}
+
+
+.box {
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 200px;
+}
+       
+span{
+    color: #846AFF;
+}
+
+.section1{
+    width: 1920px;
+    height: 560px;
+    background-color: #F8F8FF;
+}
+
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.card-img{
+    width: 384px;
+    height: 175px;
+    border-radius: 4px 4px 0px 0px;
+}
+
+.card {
+    width: 384px;
+    height: 357px;
+    border: 2px solid #EEEEFF;
+    border-radius: 8px;
+    text-align:left;
+    margin-right:25px;
+    font-size: larger;
+}
+
+.card-text {
+    padding: 10px;
+}
+
+.card-description {
+    padding: 5px;
+}
+
+h1 {
+    margin: 50px 0px 100px 350px;
+    font-size: xx-large;   
+}
+
+.section3 {
+    margin-top: 50px;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 75px ;
+    background-color: #F8F8FF;
+}
+
+input {
+    width: 592px;
+    height: 59px;
+    margin-top: 15px;
+}
+
+form {
+    margin-top: 75px;
+    margin-bottom: 50px;
+}
+
+h2{
+    margin-bottom: 25px;
+    text-align: center;
+    font-size: 40px;
+}
+
+textarea {
+    margin-top: 15px;
+    width: 592px;
+    height: 150px;  
+}
+
+.message-text {
+    width: 592px;
+    height: 47px;
+    background-color: #846AFF;
+    color: white;
+    border: none;
+    margin-top: 25px;
+}
