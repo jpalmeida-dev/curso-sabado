@@ -1,23 +1,27 @@
 body {
   display: flex;
+  flex-direction: column;
   align-items: center;
-  justify-content: center;
 }
 
 .description-text1 {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 40px;
-}
-
-.herologo {
-  width: 400px;
-  height: 460px;
+  padding-top: 30px;
 }
 
 .description-text2 {
   font-size: 24px;
   font-family: Arial, Helvetica, sans-serif;
-  padding-top: 30px;
+  padding-top: 35px;
+}
+
+.herologo {
+  width: 400px;
+  height: 460px;
+  padding-bottom: 15px;
+  padding-left: 50px;
+  margin-right: 350px;
 }
 
 .button-primary {
@@ -34,17 +38,14 @@ body {
 }
 
 .box1 {
-  width: 650px;
-  height: 300px;
+  padding-top: 50px;
+  width: 100%;
   margin-left: 350px;
 }
 
 .box {
   padding-top: 50px;
   display: flex;
-  align-items: center;
-  justify-content: center;
-  padding-right: 200px;
 }
 
 span {
@@ -52,18 +53,15 @@ span {
 }
 
 .section1 {
-  width: 1920px;
-  height: 560px;
+  width: 100%;
   background-color: #f8f8ff;
 }
 
 .card-box {
   width: 1400px;
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  align-items: center;
   justify-content: center;
+
 }
 
 .card-img {
@@ -73,7 +71,7 @@ span {
 }
 
 .card {
-  width: 384px;
+  width: 27.7%;
   height: 357px;
   border: 2px solid #eeeeff;
   border-radius: 8px;
@@ -92,7 +90,6 @@ span {
 
 .section2 {
   display: flex;
-  align-items: center;
   justify-content: center;
 }
 
@@ -139,7 +136,7 @@ textarea {
   height: 150px;
 }
 
-.message-text {
+.submit-info {
   width: 592px;
   height: 47px;
   background-color: #846aff;
@@ -152,13 +149,92 @@ textarea {
 
 /* MOBILES*/
 @media (max-width: 767px) {
-  .card-box {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
+  .description-text1 {
+    font-size: 100%;
+    text-align: baseline;
+    width: 50%;
+    margin-left: 180px;
+    padding: 0;
+    margin-top: 0;
   }
+
+  .description-text2 {
+    width: 50%;
+    margin-left: 180px;
+    font-size: 100%;
+    text-align: baseline;
+  }
+
+  .herologo {
+    width: 13%;
+    height: 15%;
+    margin-left: 0;
+    padding-left: 0;
+  }
+
+  .box1 {
+    width: 25%;
+    padding: 0;
+    height: 300px;
+    margin-bottom: 2%;
+  }
+
+  .button-primary {
+    margin-left: 50%;
+    width: 30%;
+    height: 15%;
+    font-size: 70%;
+    font-weight: bold;
+  }
+
+  h1 {
+    padding-top: 0;
+    font-size: 150%;
+    margin-left: 38%;
+    margin-bottom: 25px;
+    margin-top: 25px;
+  }
+  .card-box { 
+    display: grid;
+    margin-left: 10%;    
+    justify-content: normal;    
+  }
+
+  .card-img {
+    align-items: center;
+    width: 100%;
+    border-radius: 4px 4px 0px 0px;
+  }
+
+  .card-text {
+   font-size: 15px;
+  }
+
+  .card {
+   
+    height: 315px;
+    margin-left: 31%;
+    margin-bottom: 3%;
+  }
+
+  .form{
+    font-size: medium;
+    width: 90%;
+    margin-left: 7%;
+  }
+
+  input{
+    width: 100%;
+  }
+  
+  textarea {
+    width: 100%;  
+  }
+
+  .submit-info {
+    width: 296px;
+  }
+  
 }
 
 /*TELAS MÉDIAS*/
