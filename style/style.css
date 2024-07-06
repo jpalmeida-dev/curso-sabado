@@ -61,6 +61,7 @@ span {
   width: 1400px;
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 .card-img {
@@ -133,6 +134,7 @@ textarea {
   margin-top: 15px;
   width: 592px;
   height: 150px;
+  max-width: 592px;
 }
 
 .submit-info {
@@ -227,6 +229,7 @@ textarea {
 
   textarea {
     width: 100%;
+    max-width: ;
   }
 
   .submit-info {
@@ -266,7 +269,7 @@ textarea {
     width: 25%;
     padding: 0;
     height: 300px;
-    margin-bottom: 5%;
+    margin-bottom: 10%;
   }
 
   .button-primary {
@@ -285,9 +288,9 @@ textarea {
     margin-top: 25px;
   }
   .card-box {
-    display: grid;
-    margin-left: 10%;
-    justify-content: normal;
+    margin-left: 25%;
+    margin-right: 10%;
+    justify-content: start;
   }
 
   .card-img {
@@ -301,9 +304,9 @@ textarea {
   }
 
   .card {
-    height: 315px;
-    margin-left: 31%;
-    margin-bottom: 3%;
+    width: 350px;
+    height: 350px;
+    margin-bottom: 5%;
   }
 
   .form {
